@@ -1,0 +1,704 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D0751D525A2DC1F00715FD5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D0751D425A2DC1F00715FD5 /* AppDelegate.swift */; };
+		2D0751D725A2DC1F00715FD5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D0751D625A2DC1F00715FD5 /* SceneDelegate.swift */; };
+		2D0751DA25A2DC1F00715FD5 /* Simple_Restaraunt_Navigator.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2D0751D825A2DC1F00715FD5 /* Simple_Restaraunt_Navigator.xcdatamodeld */; };
+		2D0751DC25A2DC1F00715FD5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D0751DB25A2DC1F00715FD5 /* ContentView.swift */; };
+		2D0751DE25A2DC2100715FD5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D0751DD25A2DC2100715FD5 /* Assets.xcassets */; };
+		2D0751E125A2DC2100715FD5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D0751E025A2DC2100715FD5 /* Preview Assets.xcassets */; };
+		2D0751E425A2DC2100715FD5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D0751E225A2DC2100715FD5 /* LaunchScreen.storyboard */; };
+		2D0751EF25A2DC2100715FD5 /* Simple_Restaraunt_NavigatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D0751EE25A2DC2100715FD5 /* Simple_Restaraunt_NavigatorTests.swift */; };
+		2D0751FA25A2DC2100715FD5 /* Simple_Restaraunt_NavigatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D0751F925A2DC2100715FD5 /* Simple_Restaraunt_NavigatorUITests.swift */; };
+		2D07520825A2E40500715FD5 /* fonts in Resources */ = {isa = PBXBuildFile; fileRef = 2D07520725A2E40500715FD5 /* fonts */; };
+		2D07520E25A30C1300715FD5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D07520D25A30C1300715FD5 /* Main.storyboard */; };
+		2D07525C25A4095A00715FD5 /* RestaurantInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D07525B25A4095A00715FD5 /* RestaurantInfo.swift */; };
+		2D07525E25A4099D00715FD5 /* RestaurantItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D07525D25A4099D00715FD5 /* RestaurantItem.swift */; };
+		2D07526025A409C700715FD5 /* RestaurantDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D07525F25A409C700715FD5 /* RestaurantDetails.swift */; };
+		2D07526225A409ED00715FD5 /* RestaurantItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D07526125A409ED00715FD5 /* RestaurantItemCell.swift */; };
+		2D07526425A40E3300715FD5 /* RestaurantItemList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D07526325A40E3300715FD5 /* RestaurantItemList.swift */; };
+		2D07526625A41EF000715FD5 /* RestaurantPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D07526525A41EF000715FD5 /* RestaurantPage.swift */; };
+		2D07526825A41F4C00715FD5 /* RestaurantImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D07526725A41F4C00715FD5 /* RestaurantImage.swift */; };
+		2D07526A25A41F7300715FD5 /* RestaurantOverview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D07526925A41F7300715FD5 /* RestaurantOverview.swift */; };
+		2D07526C25A41F8A00715FD5 /* Waiting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D07526B25A41F8A00715FD5 /* Waiting.swift */; };
+		2D07526E25A45A1D00715FD5 /* HideNavigationBarModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D07526D25A45A1D00715FD5 /* HideNavigationBarModifier.swift */; };
+		2D07527025A45FAC00715FD5 /* PopupMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D07526F25A45FAC00715FD5 /* PopupMenu.swift */; };
+		2D07527825A46DE900715FD5 /* MenuContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D07527725A46DE900715FD5 /* MenuContent.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2D0751EB25A2DC2100715FD5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D0751C925A2DC1F00715FD5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D0751D025A2DC1F00715FD5;
+			remoteInfo = "Simple Restaraunt Navigator";
+		};
+		2D0751F625A2DC2100715FD5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D0751C925A2DC1F00715FD5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D0751D025A2DC1F00715FD5;
+			remoteInfo = "Simple Restaraunt Navigator";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2D0751D125A2DC1F00715FD5 /* Simple Restaraunt Navigator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Simple Restaraunt Navigator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D0751D425A2DC1F00715FD5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2D0751D625A2DC1F00715FD5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2D0751D925A2DC1F00715FD5 /* Simple_Restaraunt_Navigator.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Simple_Restaraunt_Navigator.xcdatamodel; sourceTree = "<group>"; };
+		2D0751DB25A2DC1F00715FD5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2D0751DD25A2DC2100715FD5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2D0751E025A2DC2100715FD5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2D0751E325A2DC2100715FD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2D0751E525A2DC2100715FD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D0751EA25A2DC2100715FD5 /* Simple Restaraunt NavigatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Simple Restaraunt NavigatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D0751EE25A2DC2100715FD5 /* Simple_Restaraunt_NavigatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Simple_Restaraunt_NavigatorTests.swift; sourceTree = "<group>"; };
+		2D0751F025A2DC2100715FD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D0751F525A2DC2100715FD5 /* Simple Restaraunt NavigatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Simple Restaraunt NavigatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D0751F925A2DC2100715FD5 /* Simple_Restaraunt_NavigatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Simple_Restaraunt_NavigatorUITests.swift; sourceTree = "<group>"; };
+		2D0751FB25A2DC2100715FD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D07520725A2E40500715FD5 /* fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; name = fonts; path = "Simple Restaraunt Navigator/fonts"; sourceTree = "<group>"; };
+		2D07520D25A30C1300715FD5 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		2D07525B25A4095A00715FD5 /* RestaurantInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantInfo.swift; sourceTree = "<group>"; };
+		2D07525D25A4099D00715FD5 /* RestaurantItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantItem.swift; sourceTree = "<group>"; };
+		2D07525F25A409C700715FD5 /* RestaurantDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantDetails.swift; sourceTree = "<group>"; };
+		2D07526125A409ED00715FD5 /* RestaurantItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantItemCell.swift; sourceTree = "<group>"; };
+		2D07526325A40E3300715FD5 /* RestaurantItemList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantItemList.swift; sourceTree = "<group>"; };
+		2D07526525A41EF000715FD5 /* RestaurantPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantPage.swift; sourceTree = "<group>"; };
+		2D07526725A41F4C00715FD5 /* RestaurantImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantImage.swift; sourceTree = "<group>"; };
+		2D07526925A41F7300715FD5 /* RestaurantOverview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantOverview.swift; sourceTree = "<group>"; };
+		2D07526B25A41F8A00715FD5 /* Waiting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Waiting.swift; sourceTree = "<group>"; };
+		2D07526D25A45A1D00715FD5 /* HideNavigationBarModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HideNavigationBarModifier.swift; sourceTree = "<group>"; };
+		2D07526F25A45FAC00715FD5 /* PopupMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupMenu.swift; sourceTree = "<group>"; };
+		2D07527725A46DE900715FD5 /* MenuContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuContent.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2D0751CE25A2DC1F00715FD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D0751E725A2DC2100715FD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D0751F225A2DC2100715FD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D0751C825A2DC1F00715FD5 = {
+			isa = PBXGroup;
+			children = (
+				2D07527725A46DE900715FD5 /* MenuContent.swift */,
+				2D07520725A2E40500715FD5 /* fonts */,
+				2D0751D325A2DC1F00715FD5 /* Simple Restaraunt Navigator */,
+				2D0751ED25A2DC2100715FD5 /* Simple Restaraunt NavigatorTests */,
+				2D0751F825A2DC2100715FD5 /* Simple Restaraunt NavigatorUITests */,
+				2D0751D225A2DC1F00715FD5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2D0751D225A2DC1F00715FD5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2D0751D125A2DC1F00715FD5 /* Simple Restaraunt Navigator.app */,
+				2D0751EA25A2DC2100715FD5 /* Simple Restaraunt NavigatorTests.xctest */,
+				2D0751F525A2DC2100715FD5 /* Simple Restaraunt NavigatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2D0751D325A2DC1F00715FD5 /* Simple Restaraunt Navigator */ = {
+			isa = PBXGroup;
+			children = (
+				2D0751D425A2DC1F00715FD5 /* AppDelegate.swift */,
+				2D0751D625A2DC1F00715FD5 /* SceneDelegate.swift */,
+				2D07525225A3273C00715FD5 /* View */,
+				2D07527B25A47A7F00715FD5 /* Data File */,
+				2D0751DD25A2DC2100715FD5 /* Assets.xcassets */,
+				2D0751E225A2DC2100715FD5 /* LaunchScreen.storyboard */,
+				2D07520D25A30C1300715FD5 /* Main.storyboard */,
+				2D0751E525A2DC2100715FD5 /* Info.plist */,
+				2D0751D825A2DC1F00715FD5 /* Simple_Restaraunt_Navigator.xcdatamodeld */,
+				2D0751DF25A2DC2100715FD5 /* Preview Content */,
+			);
+			path = "Simple Restaraunt Navigator";
+			sourceTree = "<group>";
+		};
+		2D0751DF25A2DC2100715FD5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2D0751E025A2DC2100715FD5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2D0751ED25A2DC2100715FD5 /* Simple Restaraunt NavigatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				2D0751EE25A2DC2100715FD5 /* Simple_Restaraunt_NavigatorTests.swift */,
+				2D0751F025A2DC2100715FD5 /* Info.plist */,
+			);
+			path = "Simple Restaraunt NavigatorTests";
+			sourceTree = "<group>";
+		};
+		2D0751F825A2DC2100715FD5 /* Simple Restaraunt NavigatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2D0751F925A2DC2100715FD5 /* Simple_Restaraunt_NavigatorUITests.swift */,
+				2D0751FB25A2DC2100715FD5 /* Info.plist */,
+			);
+			path = "Simple Restaraunt NavigatorUITests";
+			sourceTree = "<group>";
+		};
+		2D07525225A3273C00715FD5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2D0751DB25A2DC1F00715FD5 /* ContentView.swift */,
+				2D07527925A47A1300715FD5 /* 餐廳列表 */,
+				2D07527A25A47A3100715FD5 /* 餐廳頁面 */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2D07527925A47A1300715FD5 /* 餐廳列表 */ = {
+			isa = PBXGroup;
+			children = (
+				2D07526325A40E3300715FD5 /* RestaurantItemList.swift */,
+				2D07526125A409ED00715FD5 /* RestaurantItemCell.swift */,
+				2D07525F25A409C700715FD5 /* RestaurantDetails.swift */,
+				2D07526D25A45A1D00715FD5 /* HideNavigationBarModifier.swift */,
+			);
+			path = "餐廳列表";
+			sourceTree = "<group>";
+		};
+		2D07527A25A47A3100715FD5 /* 餐廳頁面 */ = {
+			isa = PBXGroup;
+			children = (
+				2D07526B25A41F8A00715FD5 /* Waiting.swift */,
+				2D07526925A41F7300715FD5 /* RestaurantOverview.swift */,
+				2D07526725A41F4C00715FD5 /* RestaurantImage.swift */,
+				2D07526F25A45FAC00715FD5 /* PopupMenu.swift */,
+				2D07526525A41EF000715FD5 /* RestaurantPage.swift */,
+			);
+			path = "餐廳頁面";
+			sourceTree = "<group>";
+		};
+		2D07527B25A47A7F00715FD5 /* Data File */ = {
+			isa = PBXGroup;
+			children = (
+				2D07525B25A4095A00715FD5 /* RestaurantInfo.swift */,
+				2D07525D25A4099D00715FD5 /* RestaurantItem.swift */,
+			);
+			path = "Data File";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2D0751D025A2DC1F00715FD5 /* Simple Restaraunt Navigator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D0751FE25A2DC2100715FD5 /* Build configuration list for PBXNativeTarget "Simple Restaraunt Navigator" */;
+			buildPhases = (
+				2D0751CD25A2DC1F00715FD5 /* Sources */,
+				2D0751CE25A2DC1F00715FD5 /* Frameworks */,
+				2D0751CF25A2DC1F00715FD5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Simple Restaraunt Navigator";
+			productName = "Simple Restaraunt Navigator";
+			productReference = 2D0751D125A2DC1F00715FD5 /* Simple Restaraunt Navigator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2D0751E925A2DC2100715FD5 /* Simple Restaraunt NavigatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D07520125A2DC2100715FD5 /* Build configuration list for PBXNativeTarget "Simple Restaraunt NavigatorTests" */;
+			buildPhases = (
+				2D0751E625A2DC2100715FD5 /* Sources */,
+				2D0751E725A2DC2100715FD5 /* Frameworks */,
+				2D0751E825A2DC2100715FD5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D0751EC25A2DC2100715FD5 /* PBXTargetDependency */,
+			);
+			name = "Simple Restaraunt NavigatorTests";
+			productName = "Simple Restaraunt NavigatorTests";
+			productReference = 2D0751EA25A2DC2100715FD5 /* Simple Restaraunt NavigatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2D0751F425A2DC2100715FD5 /* Simple Restaraunt NavigatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D07520425A2DC2100715FD5 /* Build configuration list for PBXNativeTarget "Simple Restaraunt NavigatorUITests" */;
+			buildPhases = (
+				2D0751F125A2DC2100715FD5 /* Sources */,
+				2D0751F225A2DC2100715FD5 /* Frameworks */,
+				2D0751F325A2DC2100715FD5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D0751F725A2DC2100715FD5 /* PBXTargetDependency */,
+			);
+			name = "Simple Restaraunt NavigatorUITests";
+			productName = "Simple Restaraunt NavigatorUITests";
+			productReference = 2D0751F525A2DC2100715FD5 /* Simple Restaraunt NavigatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2D0751C925A2DC1F00715FD5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Bright Lin";
+				TargetAttributes = {
+					2D0751D025A2DC1F00715FD5 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					2D0751E925A2DC2100715FD5 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 2D0751D025A2DC1F00715FD5;
+					};
+					2D0751F425A2DC2100715FD5 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 2D0751D025A2DC1F00715FD5;
+					};
+				};
+			};
+			buildConfigurationList = 2D0751CC25A2DC1F00715FD5 /* Build configuration list for PBXProject "Simple Restaraunt Navigator" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2D0751C825A2DC1F00715FD5;
+			productRefGroup = 2D0751D225A2DC1F00715FD5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2D0751D025A2DC1F00715FD5 /* Simple Restaraunt Navigator */,
+				2D0751E925A2DC2100715FD5 /* Simple Restaraunt NavigatorTests */,
+				2D0751F425A2DC2100715FD5 /* Simple Restaraunt NavigatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2D0751CF25A2DC1F00715FD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D0751E425A2DC2100715FD5 /* LaunchScreen.storyboard in Resources */,
+				2D07520E25A30C1300715FD5 /* Main.storyboard in Resources */,
+				2D0751E125A2DC2100715FD5 /* Preview Assets.xcassets in Resources */,
+				2D0751DE25A2DC2100715FD5 /* Assets.xcassets in Resources */,
+				2D07520825A2E40500715FD5 /* fonts in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D0751E825A2DC2100715FD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D0751F325A2DC2100715FD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2D0751CD25A2DC1F00715FD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D07525C25A4095A00715FD5 /* RestaurantInfo.swift in Sources */,
+				2D07526025A409C700715FD5 /* RestaurantDetails.swift in Sources */,
+				2D07527025A45FAC00715FD5 /* PopupMenu.swift in Sources */,
+				2D07526625A41EF000715FD5 /* RestaurantPage.swift in Sources */,
+				2D0751D525A2DC1F00715FD5 /* AppDelegate.swift in Sources */,
+				2D0751DA25A2DC1F00715FD5 /* Simple_Restaraunt_Navigator.xcdatamodeld in Sources */,
+				2D07526E25A45A1D00715FD5 /* HideNavigationBarModifier.swift in Sources */,
+				2D07525E25A4099D00715FD5 /* RestaurantItem.swift in Sources */,
+				2D07526225A409ED00715FD5 /* RestaurantItemCell.swift in Sources */,
+				2D07526825A41F4C00715FD5 /* RestaurantImage.swift in Sources */,
+				2D0751DC25A2DC1F00715FD5 /* ContentView.swift in Sources */,
+				2D07527825A46DE900715FD5 /* MenuContent.swift in Sources */,
+				2D0751D725A2DC1F00715FD5 /* SceneDelegate.swift in Sources */,
+				2D07526C25A41F8A00715FD5 /* Waiting.swift in Sources */,
+				2D07526425A40E3300715FD5 /* RestaurantItemList.swift in Sources */,
+				2D07526A25A41F7300715FD5 /* RestaurantOverview.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D0751E625A2DC2100715FD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D0751EF25A2DC2100715FD5 /* Simple_Restaraunt_NavigatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D0751F125A2DC2100715FD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D0751FA25A2DC2100715FD5 /* Simple_Restaraunt_NavigatorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2D0751EC25A2DC2100715FD5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D0751D025A2DC1F00715FD5 /* Simple Restaraunt Navigator */;
+			targetProxy = 2D0751EB25A2DC2100715FD5 /* PBXContainerItemProxy */;
+		};
+		2D0751F725A2DC2100715FD5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D0751D025A2DC1F00715FD5 /* Simple Restaraunt Navigator */;
+			targetProxy = 2D0751F625A2DC2100715FD5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2D0751E225A2DC2100715FD5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D0751E325A2DC2100715FD5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2D0751FC25A2DC2100715FD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2D0751FD25A2DC2100715FD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2D0751FF25A2DC2100715FD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Simple Restaraunt Navigator/Preview Content\"";
+				DEVELOPMENT_TEAM = T775Z886AA;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Simple Restaraunt Navigator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.times-transform.interview.Simple-Restaraunt-Navigator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		2D07520025A2DC2100715FD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Simple Restaraunt Navigator/Preview Content\"";
+				DEVELOPMENT_TEAM = T775Z886AA;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Simple Restaraunt Navigator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.times-transform.interview.Simple-Restaraunt-Navigator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		2D07520225A2DC2100715FD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T775Z886AA;
+				INFOPLIST_FILE = "Simple Restaraunt NavigatorTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.times-transform.interview.Simple-Restaraunt-NavigatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Simple Restaraunt Navigator.app/Simple Restaraunt Navigator";
+			};
+			name = Debug;
+		};
+		2D07520325A2DC2100715FD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T775Z886AA;
+				INFOPLIST_FILE = "Simple Restaraunt NavigatorTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.times-transform.interview.Simple-Restaraunt-NavigatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Simple Restaraunt Navigator.app/Simple Restaraunt Navigator";
+			};
+			name = Release;
+		};
+		2D07520525A2DC2100715FD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T775Z886AA;
+				INFOPLIST_FILE = "Simple Restaraunt NavigatorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.times-transform.interview.Simple-Restaraunt-NavigatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Simple Restaraunt Navigator";
+			};
+			name = Debug;
+		};
+		2D07520625A2DC2100715FD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T775Z886AA;
+				INFOPLIST_FILE = "Simple Restaraunt NavigatorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.times-transform.interview.Simple-Restaraunt-NavigatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Simple Restaraunt Navigator";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D0751CC25A2DC1F00715FD5 /* Build configuration list for PBXProject "Simple Restaraunt Navigator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D0751FC25A2DC2100715FD5 /* Debug */,
+				2D0751FD25A2DC2100715FD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D0751FE25A2DC2100715FD5 /* Build configuration list for PBXNativeTarget "Simple Restaraunt Navigator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D0751FF25A2DC2100715FD5 /* Debug */,
+				2D07520025A2DC2100715FD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D07520125A2DC2100715FD5 /* Build configuration list for PBXNativeTarget "Simple Restaraunt NavigatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D07520225A2DC2100715FD5 /* Debug */,
+				2D07520325A2DC2100715FD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D07520425A2DC2100715FD5 /* Build configuration list for PBXNativeTarget "Simple Restaraunt NavigatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D07520525A2DC2100715FD5 /* Debug */,
+				2D07520625A2DC2100715FD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2D0751D825A2DC1F00715FD5 /* Simple_Restaraunt_Navigator.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2D0751D925A2DC1F00715FD5 /* Simple_Restaraunt_Navigator.xcdatamodel */,
+			);
+			currentVersion = 2D0751D925A2DC1F00715FD5 /* Simple_Restaraunt_Navigator.xcdatamodel */;
+			path = Simple_Restaraunt_Navigator.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2D0751C925A2DC1F00715FD5 /* Project object */;
+}
